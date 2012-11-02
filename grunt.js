@@ -7,13 +7,20 @@ module.exports = function(grunt) {
 	//
 	grunt.initConfig({
 		img: {
-				task2: {
-						src: 'include/images/**/*.*',
-						dest: 'build/include/images'
-				}
+			task2: {
+				src: 'include/images/**/*.*',
+				dest: 'build/include/images'
 			}
+		},
+		min: {
+			dist: {
+				src: ['include/js/jscript.js', 'include/js/jscanvas.js'],
+				dest: 'build/include/js/build.min.js',
+				separator: ';'
+			}
+		}
 	});
 	grunt.loadNpmTasks('grunt-img');
-	grunt.registerTask('default', 'img');
+	grunt.registerTask('default', 'min img');
 
 };
