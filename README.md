@@ -12,5 +12,5 @@ La primera version de este proyecto es un esfuerzo conjunto de las siguientes pe
 
 y las sugerencias del equipo de [GDG Lima] (http://www.gdglima.pe/)
 
-##Licensia
+##Licencia
 Este proyecto liberado bajo la licencia "[Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)"
