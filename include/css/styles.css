@@ -1,5 +1,5 @@
 /*
-* Author: Carlos Eduardo Piñan Indacochea
+* Author: Carlos Eduardo Piï¿½an Indacochea
 * Web: http://www.carlospinan.com
 * Date: 27 / 09 / 2012
 */
@@ -711,8 +711,8 @@ footer a#network_facebook
 
 .table_programa tr td h4 !important
 {
-	text-align:center;
-	display:block;
+	text-align:center !important;
+	display:block !important;
 }
 
 .table_programa span
