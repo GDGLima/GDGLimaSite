@@ -709,8 +709,7 @@ footer a#network_facebook
 	font-size:11pt;
 }
 
-.table_programa tr td h4 !important
-{
+.table_programa tr td h4{
 	text-align:center !important;
 	display:block !important;
 }
