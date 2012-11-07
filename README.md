@@ -13,6 +13,7 @@ Para poder utilizar el archivo de grunt.js se necesita tener los siguientes modu
 * [grunt-smushit](https://github.com/heldr/grunt-smushit)
 * [grunt-contrib](https://github.com/gruntjs/grunt-contrib)
 * [grunt-recess](https://github.com/sindresorhus/grunt-recess)
+
 Solamente hay un task (Default) asi que con grunt (grunt.cmd en Windows) se puede compilar
 
 
