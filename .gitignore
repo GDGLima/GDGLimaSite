@@ -1,4 +1,5 @@
 .DS_Store
-build
+build/include
+build/icono.ico
 node_modules
 jpgtmp.jpg
