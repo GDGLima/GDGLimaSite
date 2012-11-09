@@ -17,7 +17,7 @@
 		 **/
 
 		function loadPage(filename) {
-			var basepath = 'include/template/';
+			var basepath = 'templates/';
 			var title = 'GDG DevFestLima - El primer DevFest en Peru';
 			var description = 'GDG DevFestLima - El primer DevFest en Peru';
 			var keywords = 'GDG DevFest, GDG Lima, ADTG Peru, Google Developers, Google Developer Group';
@@ -88,11 +88,12 @@
 			window.location = filename;
 			loadPage(filename);
 		});
-
+		var $this;
 		jQuery('nav ul li a').click(function() {
 			jQuery('nav ul li a').removeClass('active');
-			jQuery(this).addClass('active');
-			var filename = this.attr('href');
+			$this=jQuery(this);
+			$this.addClass('active');
+			var filename = $this.attr('href');
 			filename = jQuery.trim(filename);
 			loadPage(filename);
 		});
