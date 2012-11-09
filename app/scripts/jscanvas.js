@@ -7,32 +7,26 @@
 (function(global) {
 	'use strict';
 	var createjs = global.createjs;
-	var CLOUD01URL = 'images/canvasedu/cloud-md.png';
-	var CHROMEURL = 'images/canvasedu/chrome.png';
-	var APPENGINEURL = 'images/canvasedu/appengine.png';
-	var ANDROIDURL = 'images/canvasedu/android2.png';
-	var SUNURL = 'images/canvasedu/sun3.png';
-	var HTML5URL = 'images/canvasedu/html5_p1.png';
+	var CLOUD01URL = 'images/canvasedu/cloud-md.png',
+		CHROMEURL = 'images/canvasedu/chrome.png',
+		APPENGINEURL = 'images/canvasedu/appengine.png',
+		ANDROIDURL = 'images/canvasedu/android2.png',
+		SUNURL = 'images/canvasedu/sun3.png',
+		HTML5URL = 'images/canvasedu/html5_p1.png';
 
-	var canvas, stage;
-
-	var imageCloud, imageCloud2, imageCloud3, imageCloud4, imageChrome, imageAppEngine, imageSun;
-
-	var bmImageCloud;
-	var bmImageCloud2;
-	var bmImageCloud3;
-	var bmImageCloud4;
-	var bmImageChrome;
-	var bmImageAppEngine;
-	var bmImageSun;
-	var bmImageHtml5;
-	var imageHtml5;
-
-	var caminar = 1;
-	var saltar = 2;
-	var estado = 1; //caminar
-	var caminar2 = 3; //caminar
-	var salida = 4; //salida
+	var canvas, stage,
+		imageCloud, imageCloud2, imageCloud3, imageCloud4, imageChrome, imageAppEngine, imageSun,
+		bmImageCloud, bmImageCloud2, bmImageCloud3, bmImageCloud4,
+		bmImageChrome,
+		bmImageAppEngine,
+		bmImageSun,
+		bmImageHtml5,
+		imageHtml5,
+		caminar = 1,
+		saltar = 2,
+		estado = 1, //caminar
+		caminar2 = 3, //caminar
+		salida = 4; //salida
 	//android
 	var POSYANDROID = 265;
 
